@@ -2,9 +2,12 @@
     font-family: 'Cedarville Cursive', cursive;
     font-size: 200%;
 }
+
 .navbar-nav{
     font-size: 85%;
 }
+
+
 body{
     background-image: url('photos/Scotland-Background.jpg');
     background-color: #c1e6e9; /* Used if the image is unavailable */
@@ -15,6 +18,29 @@ body{
     background-attachment:fixed;
     margin: 50px;
 }
-.main{
-    background-color: white;
+
+.header{
+    font-size: 300%;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.bio{
+    margin-top:90px;
+    background-color: rgb(225, 241, 250);
+    height: auto;
+}
+
+.bio-image{
+    float: left;
+    margin:10px;
+    width:350px;
+}
+
+
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 400px) {
 }
