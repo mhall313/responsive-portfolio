@@ -28,18 +28,21 @@ body{
     margin-left:15px;
 }
 
-.container{
+.wrapper{
     margin-top:80px;
     background-color: rgb(225, 241, 250);
     height: auto;
     border-radius: 35px;
     padding:20px;
+    line-height:150%;
+
 }
 
 .bio-image{
     float: left;
-    margin:10px;
+    margin-right:10px;
     width:33%;
+    height: 100%
 }
 
 .img1, .img2, .img3, .img4, .img5{
@@ -79,5 +82,4 @@ footer{
     .img1, .img2, .img3, .img4, .img5{
         width:90%;
     }
-
 }
