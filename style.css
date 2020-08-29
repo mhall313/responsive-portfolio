@@ -1,17 +1,18 @@
+/*Navbar background color to match theme */
 .navbar{
     background-color:rgb(225, 241, 250);
 }
-
+/*New font styling from Google Fonts and increase text size to "Melanie Hall" in Navbar*/
 .navbar-brand{
     font-family: 'Cedarville Cursive', cursive;
     font-size: 200%;
 }
-
+/*Decrease font size to navigation links for styling purposes */
 .navbar-nav{
     font-size: 85%;
 }
 
-
+/*Added fixed, center align, cover background image from my trip to Scotland in 2017 with margin and default background color if that image ever breaks/is moved */
 body{
     background-image: url('photos/Scotland-Background.jpg');
     background-color: rgb(225, 241, 250);
@@ -21,13 +22,13 @@ body{
     background-attachment:fixed;
     margin: 50px;
 }
-
+/*Font change to google font to match theme, increase text size of the header of each page and add margin to fit nicely into rounded edged container */
 .header{
     font-size: 300%;
     font-family: 'Cedarville Cursive', cursive;
     margin-left:15px;
 }
-
+/*Wrapper container for main content in each page with height to fit content, background color to match theme, rounded edges and adjusted line height for easier reading */
 .wrapper{
     margin-top:80px;
     background-color: rgb(225, 241, 250);
@@ -37,14 +38,14 @@ body{
     line-height:150%;
 
 }
-
+/*Floated image on About me page with adjusted height based on wrapper */
 .bio-image{
     float: left;
     margin-right:10px;
     width:33%;
     height: 100%
 }
-
+/*Catfolio images with max sizing and adjusted sizing dependant on the size of the wrapper container*/
 .img1, .img2, .img3, .img4, .img5{
     max-width: 350px;
     max-height: 350px;
@@ -53,7 +54,7 @@ body{
     margin:15px;
 }
 
-
+/* Footer styling to match theme, background color, size, font and text size */
 footer{
     background-color:rgb(225, 241, 250);
     height:30px;
@@ -63,13 +64,13 @@ footer{
     text-align: center;
 
 }
-/*Width of screen at 768px or below */
+/*Width of screen at 768px or below - adjust About me/Bio image to 50% of the container/wrapper */
 @media screen and (max-width: 768px) {
     .bio-image{
         width:50%;
     }
 }
-/*Width of screen at 400px or below*/
+/*Width of screen at 400px or below - adjust bio image to be 67% the width of the container/wrapper, adjust padding to zero on the container and adjust images in catfolio to be 90% of the witdth of the wrapper*/
 @media screen and (max-width: 400px) {
 
     .bio-image{
